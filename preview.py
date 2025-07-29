@@ -97,7 +97,7 @@ sel_models     = st.sidebar.multiselect(
     options=models,
     default=models
 )
-search_clicked = st.sidebar.button("🔍 Search")
+search_clicked = st.sidebar.button(" Search ")
 
 if not search_clicked:
     st.sidebar.info("Select filters, then click **Search** to load videos.")
